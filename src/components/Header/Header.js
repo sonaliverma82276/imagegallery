@@ -1,7 +1,7 @@
 import React from 'react';
-import { AppBar, Toolbar, Typography, InputBase, IconButton } from '@material-ui/core';
-import { alpha, makeStyles } from '@material-ui/core/styles';
-import SearchIcon from '@material-ui/icons/Search';
+import { AppBar, Toolbar, Typography, InputBase, IconButton } from '@mui/material';
+import { alpha, makeStyles } from '@mui/material';
+import searchIcon from '@mui/material';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -65,7 +65,7 @@ export default function Header(props) {
           </Typography>
           <div className={classes.search}>
             <div className={classes.searchIcon}>
-              <SearchIcon />
+              <searchIcon />
             </div>
             <InputBase
               placeholder="Search…"
