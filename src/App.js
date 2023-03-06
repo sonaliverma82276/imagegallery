@@ -2,7 +2,7 @@ import './App.css';
 import Header from './components/Header/Header';
 import React, { useEffect, useState } from 'react'; 
 import { Grid, Paper } from '@mui/material';
-import { ThumbUpAlt, Instagram, Twitter } from '@material-ui/icons';
+import { ThumbUpAlt, Instagram, Twitter } from '@mui/icons-material';
 import Modal from 'react-modal';
 
 function App() {
