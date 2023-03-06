@@ -1,6 +1,7 @@
 import React from 'react';
 import { AppBar, Toolbar, Typography, InputBase, IconButton } from '@mui/material';
-import { alpha, makeStyles } from '@mui/material';
+import { makeStyles } from '@mui/styles';
+import { alpha } from '@mui/material';
 import searchIcon from '@mui/material';
 
 const useStyles = makeStyles((theme) => ({
